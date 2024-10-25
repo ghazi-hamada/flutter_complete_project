@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_complete_project/core/theming/styles.dart';
 
 class AlreadyHaveAccuntText extends StatelessWidget {
-const AlreadyHaveAccuntText({ Key? key }) : super(key: key);
+  const AlreadyHaveAccuntText({super.key});
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return RichText(
       textAlign: TextAlign.center,
       text: TextSpan(children: [

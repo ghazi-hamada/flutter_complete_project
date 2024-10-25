@@ -8,7 +8,7 @@ import 'package:flutter_complete_project/features/login/ui/widgets/terme_and_con
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class LoginScreen extends StatefulWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
@@ -45,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     key: formKey,
                     child: Column(
                       children: [
-                        AppTextFormField(
+                        const AppTextFormField(
                           hintText: 'Email',
                         ),
                         verticalSpace(18.h),
@@ -84,9 +84,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           },
                         ),
                         verticalSpace(40),
-                        TermeAndConditions(),
+                        const TermeAndConditions(),
                         verticalSpace(60),
-                        AlreadyHaveAccuntText()
+                        const AlreadyHaveAccuntText()
                       ],
                     ))
               ],
