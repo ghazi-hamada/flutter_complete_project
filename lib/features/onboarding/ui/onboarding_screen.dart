@@ -6,7 +6,7 @@ import 'package:flutter_complete_project/features/onboarding/ui/widgets/get_star
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class OnboardingScreen extends StatelessWidget {
-  const OnboardingScreen({Key? key}) : super(key: key);
+  const OnboardingScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

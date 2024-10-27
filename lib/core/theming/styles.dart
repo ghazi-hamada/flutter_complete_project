@@ -70,5 +70,16 @@ class TextStyles {
     color: ColorsManager.darkBlue,
   );
 
+  static TextStyle font14BlueSemiBold = TextStyle(
+    fontSize: 14.sp,
+    fontWeight: FontWeightHelpers.semiBold,
+    color: ColorsManager.mainblue,
+  );
+
+  static TextStyle font15DarkBlueMedium = TextStyle(
+    fontSize: 15.sp,
+    fontWeight: FontWeightHelpers.medium,
+    color: ColorsManager.darkBlue,
+  );
   
 }
