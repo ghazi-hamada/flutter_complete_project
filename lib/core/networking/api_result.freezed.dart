@@ -213,7 +213,7 @@ abstract class Success<T> implements ApiResult<T> {
 
   /// Create a copy of ApiResult
   /// with the given fields replaced by the non-null parameter values.
-  @JsonKey(ignore: true)
+  @JsonKey(includeFromJson: false, includeToJson: false)
   _$$SuccessImplCopyWith<T, _$SuccessImpl<T>> get copyWith =>
       throw _privateConstructorUsedError;
 }

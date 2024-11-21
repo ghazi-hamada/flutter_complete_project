@@ -3,6 +3,7 @@ import 'package:flutter_complete_project/core/theming/colors.dart';
 import 'package:flutter_complete_project/core/theming/font_weight_helpers.dart';
 import 'package:flutter_complete_project/features/onboarding/ui/onboarding_screen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class TextStyles {
   static TextStyle font24BlackBold = TextStyle(
@@ -19,6 +20,16 @@ class TextStyles {
     fontSize: 13.sp,
     fontWeight: FontWeightHelpers.regular,
     color: Colors.grey,
+  );
+  static TextStyle font12GreyRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelpers.regular,
+    color: Colors.grey,
+  );
+  static TextStyle font12BlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelpers.regular,
+    color: ColorsManager.mainblue,
   );
   static TextStyle font16whiteSemiBold = TextStyle(
     fontSize: 16.sp,
@@ -93,8 +104,32 @@ class TextStyles {
     fontWeight: FontWeightHelpers.semiBold,
     color: Colors.white,
   );
+  static TextStyle font18WhiteMedium = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelpers.medium,
+    color: Colors.white,
+  );
 
   static TextStyle font18DarkblueBold = TextStyle(
-    
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelpers.bold,
+    color: ColorsManager.darkBlue,
+  );
+  static TextStyle font18DarkblueSemiBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelpers.semiBold,
+    color: ColorsManager.darkBlue,
+  );
+
+  static TextStyle font12DarkBlueRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelpers.regular,
+    color: ColorsManager.darkBlue,
+  );
+
+  static TextStyle font12GreyMedium = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelpers.medium,
+    color: Colors.grey,
   );
 }
