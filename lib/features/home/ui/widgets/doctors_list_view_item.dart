@@ -1,3 +1,5 @@
+// import 'package:cached_network_image/cached_network_image.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_complete_project/core/helpers/spacing.dart';
 import 'package:flutter_complete_project/core/theming/styles.dart';
@@ -17,12 +19,17 @@ class DoctorsListViewItem extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 16.h),
       child: Row(
         children: [
+          // chached network image
+    //       CachedNetworkImage(
+    //     imageUrl: "https://instagram.fjrs2-2.fna.fbcdn.net/v/t51.2885-19/448830718_3541514636103918_274332779009961987_n.jpg?_nc_ht=instagram.fjrs2-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=5UtvMRLF6T4Q7kNvgFbsO-e&_nc_gid=940e50038cf84e5dacc0a29d65f29293&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYC_K42DWNTbceOE-MEYLz7Eyv_5sUvRtunj5Ug_grFr_w&oe=67441C00&_nc_sid=22de04",
+    //     placeholder: (context, url) => CircularProgressIndicator(),
+    //     errorWidget: (context, url, error) => Icon(Icons.error),
+    //  ),
           ClipRRect(
             borderRadius: BorderRadius.circular(12.0),
             child: Image.network(
               width: 110.w,
               height: 120.h,
-             // doctorData!.phone ??
                   'https://instagram.fjrs2-2.fna.fbcdn.net/v/t51.2885-19/448830718_3541514636103918_274332779009961987_n.jpg?_nc_ht=instagram.fjrs2-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=5UtvMRLF6T4Q7kNvgFbsO-e&_nc_gid=940e50038cf84e5dacc0a29d65f29293&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYC_K42DWNTbceOE-MEYLz7Eyv_5sUvRtunj5Ug_grFr_w&oe=67441C00&_nc_sid=22de04',
               fit: BoxFit.cover,
             ),

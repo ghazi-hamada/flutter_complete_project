@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_complete_project/core/networking/api_constants.dart';
-import 'package:flutter_complete_project/features/login/data/models/login_request_body.dart';
-import 'package:flutter_complete_project/features/login/data/models/login_response.dart';
-import 'package:flutter_complete_project/features/sinup/data/models/sign_up_request_body.dart';
+import 'api_constants.dart';
+import '../../features/login/data/models/login_request_body.dart';
+import '../../features/login/data/models/login_response.dart';
+import '../../features/sinup/data/models/sign_up_request_body.dart';
 import 'package:retrofit/retrofit.dart';
 
 import 'package:retrofit/http.dart';

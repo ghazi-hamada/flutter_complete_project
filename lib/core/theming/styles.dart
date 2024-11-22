@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_project/core/theming/colors.dart';
-import 'package:flutter_complete_project/core/theming/font_weight_helpers.dart';
-import 'package:flutter_complete_project/features/onboarding/ui/onboarding_screen.dart';
+import 'colors.dart';
+import 'font_weight_helpers.dart';
+import '../../features/onboarding/ui/onboarding_screen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 

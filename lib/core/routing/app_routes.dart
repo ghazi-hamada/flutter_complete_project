@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_complete_project/core/di/dependency_injection.dart';
-import 'package:flutter_complete_project/core/routing/routes.dart';
-import 'package:flutter_complete_project/features/home/logic/home_cubit.dart';
-import 'package:flutter_complete_project/features/home/ui/home_screen.dart';
-import 'package:flutter_complete_project/features/login/logic/cubit/login_cubit.dart';
-import 'package:flutter_complete_project/features/login/ui/login_screen.dart';
-import 'package:flutter_complete_project/features/onboarding/ui/onboarding_screen.dart';
-import 'package:flutter_complete_project/features/sinup/logic/sign_up_cubit.dart';
-import 'package:flutter_complete_project/features/sinup/ui/sign_up_screen.dart';
+import '../di/dependency_injection.dart';
+import 'routes.dart';
+import '../../features/home/logic/home_cubit.dart';
+import '../../features/home/ui/home_screen.dart';
+import '../../features/login/logic/cubit/login_cubit.dart';
+import '../../features/login/ui/login_screen.dart';
+import '../../features/onboarding/ui/onboarding_screen.dart';
+import '../../features/sinup/logic/sign_up_cubit.dart';
+import '../../features/sinup/ui/sign_up_screen.dart';
 
 class AppRoutes {
   Route? generateRoute(RouteSettings settings) {

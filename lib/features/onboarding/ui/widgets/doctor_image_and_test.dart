@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_project/core/theming/styles.dart';
+import '../../../../core/theming/styles.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class DoctorImageAndTest extends StatelessWidget {

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_complete_project/core/widget/app_text_button.dart';
-import 'package:flutter_complete_project/features/login/ui/widgets/terme_and_conditions.dart';
-import 'package:flutter_complete_project/features/sinup/ui/widgets/alredy_have_account.dart';
-import 'package:flutter_complete_project/features/sinup/ui/widgets/sign_up_bloc_listener.dart';
-import 'package:flutter_complete_project/features/sinup/ui/widgets/sign_up_form.dart';
+import '../../../core/widget/app_text_button.dart';
+import '../../login/ui/widgets/terme_and_conditions.dart';
+import 'widgets/alredy_have_account.dart';
+import 'widgets/sign_up_bloc_listener.dart';
+import 'widgets/sign_up_form.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../core/helpers/spacing.dart';

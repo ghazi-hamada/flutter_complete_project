@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_complete_project/core/routing/app_routes.dart';
-import 'package:flutter_complete_project/core/routing/routes.dart';
-import 'package:flutter_complete_project/core/theming/colors.dart';
+import 'core/helpers/constants.dart';
+import 'core/routing/app_routes.dart';
+import 'core/routing/routes.dart';
+import 'core/theming/colors.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class DocApp extends StatelessWidget {
@@ -21,7 +22,7 @@ class DocApp extends StatelessWidget {
           scaffoldBackgroundColor: Colors.white,
         ),
         onGenerateRoute: appRoutes.generateRoute,
-        initialRoute: Routes.onBoardingScreen,
+        initialRoute:isLoggedInUser ? Routes.homeScreen : Routes.onBoardingScreen,
       ),
     );
   }

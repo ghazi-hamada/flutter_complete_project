@@ -1,8 +1,8 @@
-import 'package:flutter_complete_project/core/networking/api_error_handler.dart';
-import 'package:flutter_complete_project/core/networking/api_result.dart';
-import 'package:flutter_complete_project/core/networking/api_service.dart';
-import 'package:flutter_complete_project/features/sinup/data/models/sign_up_request_body.dart';
-import 'package:flutter_complete_project/features/sinup/data/models/sign_up_response.dart';
+import '../../../../core/networking/api_error_handler.dart';
+import '../../../../core/networking/api_result.dart';
+import '../../../../core/networking/api_service.dart';
+import '../models/sign_up_request_body.dart';
+import '../models/sign_up_response.dart';
 
 class SignupRepo {
   final ApiService _apiService;

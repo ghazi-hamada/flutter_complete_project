@@ -1,7 +1,7 @@
 
 
 import 'package:dio/dio.dart';
-import 'package:flutter_complete_project/core/networking/api_constants.dart';
+import '../../../../core/networking/api_constants.dart';
 import 'package:retrofit/retrofit.dart';
 
 import '../models/specializations_response_model.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_complete_project/features/sinup/data/repos/sign_up_repo.dart';
-import 'package:flutter_complete_project/features/sinup/logic/sign_up_state.dart';
+import '../data/repos/sign_up_repo.dart';
+import 'sign_up_state.dart';
 
 import '../data/models/sign_up_request_body.dart';
 

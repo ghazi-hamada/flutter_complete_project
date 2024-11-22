@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_complete_project/core/helpers/spacing.dart';
-import 'package:flutter_complete_project/features/home/logic/home_cubit.dart';
-import 'package:flutter_complete_project/features/home/logic/home_state.dart';
-import 'package:flutter_complete_project/features/home/ui/widgets/doctors_list_view.dart';
-import 'package:flutter_complete_project/features/home/ui/widgets/doctors_speciality_list_view.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../logic/home_cubit.dart';
+import '../../logic/home_state.dart';
+import 'doctors_list_view.dart';
+import 'doctors_speciality_list_view.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class SpecializationsAndDoctorsBlocBuilder extends StatelessWidget {
