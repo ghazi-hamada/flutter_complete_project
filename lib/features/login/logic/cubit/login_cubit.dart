@@ -1,5 +1,8 @@
+import 'dart:developer';
+
 import 'package:dio/dio.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_complete_project/core/networking/dio_factory.dart';
 import '../../../../core/helpers/constants.dart';
 import '../../../../core/helpers/shared_pref_helper.dart';
 import '../../../../core/networking/api_error_handler.dart';
@@ -33,6 +36,7 @@ class LoginCubit extends Cubit<LoginState> {
   }
 
   Future<void> seveUserToken(String token) async {
-    await SharedPrefHelper.setData(SharedPrefKeys.userToken, token);
+    await SharedPrefHelper.setSecuredString(SharedPrefKeys.userToken, token);
+    DioFactory.setTokenAfterLogin(token);
   }
 }

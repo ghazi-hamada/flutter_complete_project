@@ -30,7 +30,7 @@ class DoctorsListViewItem extends StatelessWidget {
             child: Image.network(
               width: 110.w,
               height: 120.h,
-                  'https://instagram.fjrs2-2.fna.fbcdn.net/v/t51.2885-19/448830718_3541514636103918_274332779009961987_n.jpg?_nc_ht=instagram.fjrs2-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=5UtvMRLF6T4Q7kNvgFbsO-e&_nc_gid=940e50038cf84e5dacc0a29d65f29293&edm=APoiHPcBAAAA&ccb=7-5&oh=00_AYC_K42DWNTbceOE-MEYLz7Eyv_5sUvRtunj5Ug_grFr_w&oe=67441C00&_nc_sid=22de04',
+                  'https://static2.bigstockphoto.com/2/9/4/large1500/4929477.jpg',
               fit: BoxFit.cover,
             ),
           ),
